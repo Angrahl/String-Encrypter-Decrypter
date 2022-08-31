@@ -2,6 +2,10 @@
 
 This is a small string encrypter/decrypter done with Python and the Fernet module from the **cryptography** package.
 
+The script **encryption.py** will encrypt a string entered by the user using a generated key. This key is generated with the use of cryptography's package Fernet module and will be written in a file named **encryption_key.key**. Then, when the user will enter his message to encrypt, this one will be encrypted and written in a file named **encrypted_msg.txt**.
+
+The script **decryption.py** simply opens the file which contains the encrypted message, reads it and decrypts it.
+
 ## 1. Installing Python and PIP
 
 To run this script, you will need a valid installation of Python and PIP.
