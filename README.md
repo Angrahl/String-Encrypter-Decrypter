@@ -41,7 +41,7 @@ $ sudo dnf install python-pip
 
 ## 2. Installing 'cryptography' and run the scripts
 
-Once you installed Python and PIP, you'll need to install the *cryptography* package with PIP to be able to run the scripts (at least for a Windows user)
+Once you installed Python and PIP, you'll need to install the *cryptography* package with PIP to be able to run the scripts
 
 Run this command to download the *cryptography* package:
 ```
