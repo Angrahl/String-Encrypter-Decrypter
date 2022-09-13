@@ -1,15 +1,15 @@
 PY = python3
 
 all:
-	$(PY) encryption.py
-	$(PY) decryption.py
+	$(PY) src/encryption.py
+	$(PY) src/decryption.py
 
 encrypt:
-	$(PY) encryption.py
+	$(PY) src/encryption.py
 
 decrypt:
-	$(PY) decryption.py
+	$(PY) src/decryption.py
 
 clean:
 	$(RM) encryption_key.key encrypted_msg.txt
-	rm -rf __pycache__
+	rm -rf src/__pycache__
